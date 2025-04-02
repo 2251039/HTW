@@ -1,0 +1,80 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40;
+}
+
+h1{
+    background-color: hotpink;
+    color: beige;
+    font-size: 2em;
+}
+div{
+    margin: 20px;
+    padding: 10px;
+    border: double 5px gray;
+}
+div ::before {
+    content: '😊';
+}
+div::after {
+    content: '😁';
+}
+/* div:hover {
+    background-color: aqua;
+} */
+#todolist #last_li{
+    background-color: burlywood;
+    font-family: Hi Melody, sans-serif;
+}
+
+.point3 {
+    font-family: Hi Melody, sans-serif;
+}
+/* #last_li{
+    font-weight: 800;
+} */
+a {
+    color: brown;
+}
+a:visited{
+    text-decoration: line-through;
+}
+
+a:hover {
+    font-weight: 900;
+    font-size: 1.2em;
+}
+div > ul{
+    font-style: italic;
+}
+div li{
+    color: red;
+}
+span{
+    font-size: 0.8em;
+}
+a ~ span {
+    font-size: 0.5em;
+}
+button:hover { 
+    font-weight: 900;
+}
+button:active {
+    background-color: cyan;
+    color: beige;
+}
+input :focus {
+    color: red;
+}
+input:disabled {
+    display: none;
+}
+
+li:first-child {
+    font-size: 1.2em;
+}
+li:nth-child(2)
+
+li:last-child {
+    font-size: 1.7em;
+}
